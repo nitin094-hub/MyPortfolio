@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+
+.aboutContainer {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  padding: 0.1rem 2rem;
+  overflow-y: overlay;
+  
+  h1 {
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    font-weight: 500;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    color: #888888;
+  }
+  .aboutMe {
+    display: flex;
+    gap: 3rem;
+    .aboutMeText {
+      flex-basis: 60%;
+    }
+    .aboutMePoints {
+      flex-basis: 40%;
+      span {
+        color: black;
+        font-weight: bolder;
+        margin-right: 0.4rem;
+      }
+    }
+  }
+  .whatIDoContent {
+    display: flex;
+    gap: 1.4rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    .whatIDoContainers {
+      flex-basis: 47%;
+      .TechIcons {
+        margin: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        div {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}
+
+.aboutContainer::-webkit-scrollbar {
+  width: 7px;
+}
+
+.aboutContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.aboutContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}

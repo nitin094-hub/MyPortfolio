@@ -1,0 +1,35 @@
+.divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 1px;
+    background-color: #eee;
+}
+.divider::before{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-left: -6px;
+    border-radius: 10px;
+    background-color: #18191a;
+    opacity: 0.25;
+    z-index: 0;
+}
+.divider::after{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+    margin-left: -4px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #18191a;
+    z-index: 1;
+}

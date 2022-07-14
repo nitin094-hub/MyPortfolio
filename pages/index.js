@@ -12,7 +12,6 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
       <LayOut>
         <div className={styles.homePage}>
           <div className={styles.textContainer}>
@@ -59,6 +58,5 @@ export default function Home() {
           </div>
         </div>
       </LayOut>
-    </div>
   );
 }

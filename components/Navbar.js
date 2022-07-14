@@ -4,8 +4,10 @@ import { AiFillHome, AiFillProject, AiFillTrophy } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { GoMortarBoard } from "react-icons/go";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
 function Navbar() {
+  const router = useRouter();
   const [navbarContent, setNavbarContent] = useState({
     home: false,
     about: false,
@@ -31,7 +33,7 @@ function Navbar() {
             });
           }}
         >
-          <AiFillHome size={37} color="#b5b6b7" />
+          <AiFillHome size={37} color={router.pathname==="/" ? "black" : "#b5b6b7"} />
           <span
             style={
               navbarContent.home
@@ -43,7 +45,7 @@ function Navbar() {
           </span>
         </a>
       </Link>
-      <Link href={"/"}>
+      <Link href={"/about"}>
         <a
           onMouseEnter={() => {
             setNavbarContent({
@@ -58,7 +60,7 @@ function Navbar() {
             });
           }}
         >
-          <BsPersonFill size={37} color="#b5b6b7" />
+          <BsPersonFill size={37} color={router.pathname==="/about" ? "black" : "#b5b6b7"} />
           <span
             style={
               navbarContent.about
@@ -70,7 +72,7 @@ function Navbar() {
           </span>
         </a>
       </Link>
-      <Link href={"/"}>
+      <Link href={"/experience"}>
         <a
           onMouseEnter={() => {
             setNavbarContent({
@@ -85,7 +87,7 @@ function Navbar() {
             });
           }}
         >
-          <GoMortarBoard size={37} color="#b5b6b7" />
+          <GoMortarBoard size={37} color={router.pathname==="/experience" ? "black" : "#b5b6b7"} />
           <span
             style={
               navbarContent.experience
@@ -97,7 +99,7 @@ function Navbar() {
           </span>
         </a>
       </Link>
-      <Link href={"/"}>
+      <Link href={"/projects"}>
         <a
           onMouseEnter={() => {
             setNavbarContent({
@@ -112,7 +114,7 @@ function Navbar() {
             });
           }}
         >
-          <AiFillProject size={37} color="#b5b6b7" />
+          <AiFillProject size={37} color={router.pathname==="/projects" ? "black" : "#b5b6b7"} />
           <span
             style={
               navbarContent.projects
