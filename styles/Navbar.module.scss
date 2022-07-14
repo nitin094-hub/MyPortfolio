@@ -1,0 +1,35 @@
+.navbarContainer{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position:fixed;
+    top: 10%;
+    right: 3rem;
+    padding: 1.2rem;
+    border-radius:40px;
+    a{
+        
+        svg{
+            transition: all 0.3s;
+        }
+        svg:hover{
+            color: black !important; 
+        }
+    }
+    span{
+        position: absolute;
+        right: 4rem;
+        padding: 0.3rem 0.7rem;
+        background-color: black;
+        color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        transition:  0.5s all;
+        h3{
+            margin: 0;
+        }
+    }
+}

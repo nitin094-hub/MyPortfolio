@@ -1,0 +1,47 @@
+.container {
+  .homePage {
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6rem;
+    .textContainer {
+      h3 {
+        font-size: 1.7rem;
+        line-height: 3.5rem;
+        margin: 0;
+        text-align: center;
+        color: rgb(165, 165, 165);
+      }
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin: 0;
+        text-align: center;
+        color: white;
+      }
+    }
+    .socialMediaIcons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        a {
+          padding: 7px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          transition: 0.5s all;
+        }
+        a:hover {
+          background-color: rgb(65 65 65);
+        }
+      }
+  }
+}

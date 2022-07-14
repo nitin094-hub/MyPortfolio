@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: url("../assets/backgroundImage.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .mainContainer {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background: #18191a;
+    border-radius: 30px;
+    .leftContainer {
+      flex-basis: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: auto;
+      .profImg {
+        margin-bottom: 20px;
+        border: 3px solid #fff;
+        border-radius: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          border-radius: 200px;
+        }
+      }
+      .textContainer {
+        line-height: 2.4rem;
+        text-align: center;
+        margin: 1rem 0;
+        h1 {
+          font-size: 36px;
+          font-weight: bolder;
+          color: #fff;
+          margin: 0;
+        }
+        h3 {
+          font-size: 22px;
+          font-weight: 300;
+          color: #fff;
+          margin: 0;
+        }
+      }
+      .socialMediaIcons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        a {
+          padding: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          transition: 0.5s all;
+        }
+        a:hover {
+          background-color: rgb(65 65 65);
+        }
+      }
+      .resumeBtn {
+        margin-top: 3rem;
+        width: 8rem;
+        height: 3rem;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        cursor: pointer;
+        transition: 0.5s all;
+        background-color: inherit;
+        h3 {
+          margin: 0;
+          font-weight: bolder;
+          color: #fff;
+          transition: 0.5s all;
+        }
+       
+      }
+      .resumeBtn:hover {
+        background-color: #fff;
+        h3 {
+          color: #18191a;
+        }
+      }
+    }
+    .rightContainer {
+      flex-basis: 70%;
+    }
+  }
+}

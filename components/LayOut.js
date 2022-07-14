@@ -1,7 +1,7 @@
-import Head from "next/head";
+import React from "react";
 import Image from "next/image";
-import LayOut from "../components/LayOut";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/LayOut.module.scss";
+import profileImg from "../assets/profileImg.jpg";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -9,15 +9,25 @@ import {
 } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
-export default function Home() {
+function LayOut({ children }) {
   return (
     <div className={styles.container}>
-      <LayOut>
-        <div className={styles.homePage}>
+      <div className={styles.mainContainer}>
+        <div className={styles.leftContainer}>
+          <div className={styles.profImg}>
+            <Image
+              src={profileImg}
+              alt="Picture of the author"
+              width={220}
+              height={170}
+            />
+          </div>
           <div className={styles.textContainer}>
-            <h3>Hey there!👏</h3>
-            <h1>I am Nitin Rajesh</h1>
+            <h1>Nitin Rajesh</h1>
+
+            <h3>Ready to dev</h3>
           </div>
           <div className={styles.socialMediaIcons}>
             <Link
@@ -26,7 +36,7 @@ export default function Home() {
               }
             >
               <a target="_blank" rel="noopener noreferrer">
-                <AiFillGithub size="37" color="white" />
+                <AiFillGithub size={27} color="white" />
               </a>
             </Link>
             <Link
@@ -35,7 +45,7 @@ export default function Home() {
               }
             >
               <a target="_blank" rel="noopener noreferrer">
-                <AiFillLinkedin size="37" color="white" />
+                <AiFillLinkedin size={27} color="white" />
               </a>
             </Link>
             <Link
@@ -44,7 +54,7 @@ export default function Home() {
               }
             >
               <a target="_blank" rel="noopener noreferrer">
-                <AiFillTwitterCircle size="37" color="white" />
+                <AiFillTwitterCircle size={27} color="white" />
               </a>
             </Link>
             <Link
@@ -53,12 +63,21 @@ export default function Home() {
               }
             >
               <a target="_blank" rel="noopener noreferrer">
-                <SiLeetcode size="37" color="white" />
+                <SiLeetcode size={27} color="white" />
               </a>
             </Link>
           </div>
+          <button className={styles.resumeBtn}>
+            <h3>Resume</h3>
+          </button>
         </div>
-      </LayOut>
+        <div className={styles.rightContainer}>
+            {children}
+        </div>
+      </div>
+      <Navbar/>
     </div>
   );
 }
+
+export default LayOut;
