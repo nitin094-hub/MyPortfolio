@@ -21,7 +21,7 @@ export default function Home() {
           <div className={styles.socialMediaIcons}>
             <Link
               href={
-                "https://nextjs.org/learn/basics/navigate-between-pages/link-component"
+                "https://github.com/nitin094-hub"
               }
             >
               <a target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ export default function Home() {
             </Link>
             <Link
               href={
-                "https://nextjs.org/learn/basics/navigate-between-pages/link-component"
+                "https://www.linkedin.com/in/nitin-rajesh-25a5b71b4/"
               }
             >
               <a target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ export default function Home() {
             </Link>
             <Link
               href={
-                "https://nextjs.org/learn/basics/navigate-between-pages/link-component"
+                "https://twitter.com/NitinRajesh4"
               }
             >
               <a target="_blank" rel="noopener noreferrer">
@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
             <Link
               href={
-                "https://nextjs.org/learn/basics/navigate-between-pages/link-component"
+                "https://leetcode.com/DeadDeal_1/"
               }
             >
               <a target="_blank" rel="noopener noreferrer">

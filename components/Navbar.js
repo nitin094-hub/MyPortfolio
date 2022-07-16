@@ -126,7 +126,7 @@ function Navbar() {
           </span>
         </a>
       </Link>
-      <Link href={"/"}>
+      <Link href={"/achievements"}>
         <a
           onMouseEnter={() => {
             setNavbarContent({
@@ -141,7 +141,7 @@ function Navbar() {
             });
           }}
         >
-          <AiFillTrophy size={37} color="#b5b6b7" />
+          <AiFillTrophy size={37} color={router.pathname==="/achievements" ? "black" : "#b5b6b7"} />
           <span
             style={
               navbarContent.achievements

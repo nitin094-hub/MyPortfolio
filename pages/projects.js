@@ -1,6 +1,10 @@
 import React from "react";
 import LayOut from "../components/LayOut";
 import styles from "../styles/Projects.module.scss";
+import developersMate from "../assets/developersMate.png";
+import portfolio from "../assets/portfolio.png";
+import quizPortal from "../assets/quizPortal.png";
+import musicPlayer from "../assets/musicPlayer.png";
 
 function projects() {
   return (
@@ -11,10 +15,7 @@ function projects() {
           <div
             className={styles.project}
             style={{
-              background:
-                "url(" +
-                "http://localhost:3000/_next/static/media/developersMate.5f64d98b.png" +
-                ")",
+              backgroundImage: `url(${developersMate.src})`,
               backgroundPosition: "center center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",
@@ -29,10 +30,7 @@ function projects() {
           <div
             className={styles.project}
             style={{
-              background:
-                "url(" +
-                "http://localhost:3000/_next/static/media/portfolio.b07644ad.png" +
-                ")",
+              backgroundImage: `url(${portfolio.src})`,
               backgroundPosition: "center center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",
@@ -47,10 +45,8 @@ function projects() {
           <div
             className={styles.project}
             style={{
-              background:
-                "url(" +
-                "http://localhost:3000/_next/static/media/QuizPortal.796691fc.png" +
-                ")",
+              background: `url(${quizPortal.src})`,
+
               backgroundPosition: "center center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",
@@ -61,6 +57,22 @@ function projects() {
               target="__blanck"
             ></a>
             <h5>Quiz Portal</h5>
+          </div>
+          <div
+            className={styles.project}
+            style={{
+              background: `url(${musicPlayer.src})`,
+
+              backgroundPosition: "center center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "100% 100%",
+            }}
+          >
+            <a
+              href="https://github.com/nitin094-hub/MusicPlayer"
+              target="__blanck"
+            ></a>
+            <h5>Music Player</h5>
           </div>
         </div>
       </div>

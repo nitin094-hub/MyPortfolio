@@ -31,7 +31,7 @@ function Experience() {
             <div className={commonStyles.leftPart}>
               <h3>Jan'22-Apr'22</h3>
             </div>
-            <Divider top="283px" height="6rem" />
+            <Divider top="280px" height="6rem" />
             <div className={commonStyles.rightPart}>
               <h3>
                 Frontend Developer Intern at{" "}
@@ -63,9 +63,9 @@ function Experience() {
             <div className={commonStyles.leftPart}>
               <h3>Dec'21-Present</h3>
             </div>
-            <Divider top="470px" height="5rem" />
+            <Divider top="422px" height="5rem" />
             <div className={commonStyles.rightPart}>
-              <h3>Competitive Programming Lead at <a href="https://www.codechef.com/campus_chapter/CodeChef_MU_Jaipur_Chapter" style={{color:"#7b5e47"}} target="__blanck">Codechef Chapter MUJ</a></h3>
+              <h3>Competitive Programming Lead at <a href="https://www.codechef.com/campus_chapter/CodeChef_MU_Jaipur_Chapter" style={{color:"rgb(180 86 12)"}} target="__blanck">Codechef Chapter MUJ</a></h3>
               <p>
                 Taught basic Data structure and algorithms to more than 20+
                 students of my college.

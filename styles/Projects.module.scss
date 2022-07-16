@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 .projectsContainer {
   background-color: #fff;
   width: 100%;
@@ -25,8 +27,8 @@
     .project {
       flex-basis: 49%;
       height: 15rem;
-      background: url("../assets/QuizPortal.png");
       transition: 0.5s all;
+      // background-image: url(../assets/developersMate.png);
       position: relative;
       margin: 1.5rem 0;
       a {
