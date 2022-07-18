@@ -35,7 +35,6 @@ function LayOut({ children }) {
   }
 
   const variants = [variant2,variant1,variant3,variant4];
-  console.log(Math.random() < 0.5 ? Math.floor((Math.random() * 4)) : 0 )
   return (
     <div className={styles.container}>
       <div className={styles.mainContainer}>
