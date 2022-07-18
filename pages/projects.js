@@ -3,7 +3,7 @@ import LayOut from "../components/LayOut";
 import styles from "../styles/Projects.module.scss";
 import developersMate from "../assets/developersMate.png";
 import portfolio from "../assets/portfolio.png";
-import quizPortal from "../assets/quizPortal.png";
+import quizPortal from "../assets/QuizPortal.png";
 import musicPlayer from "../assets/musicPlayer.png";
 
 function projects() {
