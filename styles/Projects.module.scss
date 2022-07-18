@@ -24,13 +24,16 @@
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    // flex-direction: column;
     .project {
       flex-basis: 49%;
       height: 15rem;
       transition: 0.5s all;
-      // background-image: url(../assets/developersMate.png);
       position: relative;
       margin: 1.5rem 0;
+      @media screen and (max-width: 984px) {
+        flex-basis: 100%;
+      }
       a {
         position: absolute;
         top: 0;

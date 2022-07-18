@@ -1,10 +1,10 @@
 .divider {
     position: absolute;
     top: 0;
-    left: 30%;
     bottom: 0;
     width: 1px;
     background-color: #eee;
+    left: 28%;                   /* Move 50% from left */
 }
 .divider::before{
     content: "";

@@ -15,7 +15,7 @@ function Experience() {
             <div className={commonStyles.leftPart}>
               <h3>2020-2024</h3>
             </div>
-            <Divider top="138px" height="5rem" />
+            <Divider height="5rem" />
             <div className={commonStyles.rightPart}>
               <h3>Manipal University Jaipur</h3>
               <p>
@@ -31,11 +31,15 @@ function Experience() {
             <div className={commonStyles.leftPart}>
               <h3>Jan&apos;22-Apr&apos;22</h3>
             </div>
-            <Divider top="280px" height="6rem" />
+            <Divider height="6rem" />
             <div className={commonStyles.rightPart}>
               <h3>
                 Frontend Developer Intern at{" "}
-                <a href="https://bugbase.in/" style={{ color: "#10ca00" }} target="__blanck">
+                <a
+                  href="https://bugbase.in/"
+                  style={{ color: "#10ca00" }}
+                  target="__blanck"
+                >
                   BugBase Pvt Ltd.
                 </a>
               </h3>
@@ -63,9 +67,18 @@ function Experience() {
             <div className={commonStyles.leftPart}>
               <h3>Dec&apos;21-Present</h3>
             </div>
-            <Divider top="422px" height="5rem" />
+            <Divider height="5rem" />
             <div className={commonStyles.rightPart}>
-              <h3>Competitive Programming Lead at <a href="https://www.codechef.com/campus_chapter/CodeChef_MU_Jaipur_Chapter" style={{color:"rgb(180 86 12)"}} target="__blanck">Codechef Chapter MUJ</a></h3>
+              <h3>
+                Competitive Programming Lead at{" "}
+                <a
+                  href="https://www.codechef.com/campus_chapter/CodeChef_MU_Jaipur_Chapter"
+                  style={{ color: "rgb(180 86 12)" }}
+                  target="__blanck"
+                >
+                  Codechef Chapter MUJ
+                </a>
+              </h3>
               <p>
                 Taught basic Data structure and algorithms to more than 20+
                 students of my college.

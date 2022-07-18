@@ -24,6 +24,11 @@
   .aboutMe {
     display: flex;
     gap: 3rem;
+    @media screen and (max-width: 670px) {
+      flex-direction: column;
+      gap: 0;
+    }
+    
     .aboutMeText {
       flex-basis: 60%;
     }
@@ -41,6 +46,10 @@
     gap: 1.4rem;
     margin: 1rem 0;
     flex-wrap: wrap;
+    @media screen and (max-width: 592px) {
+      flex-direction: column;
+      gap: 0;
+    }
     .whatIDoContainers {
       flex-basis: 47%;
       .TechIcons {

@@ -7,9 +7,19 @@
     gap: 2rem;
     position:fixed;
     top: 10%;
-    right: 2.5rem;
+    right: 1rem;
     padding: 1.2rem;
     border-radius:40px;
+    @media screen and (max-width: 1241px) {
+        right: 0.3rem;
+    }
+    @media screen and (max-width: 1059px) {
+        right: 0.1rem;
+        padding: 0.8rem;
+      }
+    @media screen and (max-width: 1138px) {
+        display: none;
+      }
     a{
         
         svg{
@@ -30,6 +40,28 @@
         transition:  0.5s all;
         h3{
             margin: 0;
+        }
+    }
+}
+.arrowNavbarContainer{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    position:fixed;
+    bottom: 10%;
+    right: 1rem;
+    padding: 1.2rem;
+    border-radius:40px;
+    a{
+        
+        svg{
+            transition: all 0.3s;
+        }
+        svg:hover{
+            color: rgb(141, 0, 0) !important; 
         }
     }
 }

@@ -9,8 +9,10 @@ import {
 } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -23,6 +25,14 @@ export default function Home() {
             <h3>Hey there!👏</h3>
             <h1>I am Nitin Rajesh</h1>
           </div>
+            <a
+              href="https://drive.google.com/file/d/1giqpxosXS2lmT2JgD1IzTeP1zL_Ip0Ww/view?usp=sharing"
+              target="__blanck"
+            >
+              <button className={styles.resumeBtn}>
+                <h3>Resume</h3>
+              </button>
+            </a>
           <div className={styles.socialMediaIcons}>
             <Link href={"https://github.com/nitin094-hub"}>
               <a target="_blank" rel="noopener noreferrer">
