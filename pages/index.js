@@ -12,6 +12,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <>
+      <Head>
+        <title>Nitin | Portfolio</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <LayOut>
         <div className={styles.homePage}>
           <div className={styles.textContainer}>
@@ -19,38 +24,22 @@ export default function Home() {
             <h1>I am Nitin Rajesh</h1>
           </div>
           <div className={styles.socialMediaIcons}>
-            <Link
-              href={
-                "https://github.com/nitin094-hub"
-              }
-            >
+            <Link href={"https://github.com/nitin094-hub"}>
               <a target="_blank" rel="noopener noreferrer">
                 <AiFillGithub size="37" color="white" />
               </a>
             </Link>
-            <Link
-              href={
-                "https://www.linkedin.com/in/nitin-rajesh-25a5b71b4/"
-              }
-            >
+            <Link href={"https://www.linkedin.com/in/nitin-rajesh-25a5b71b4/"}>
               <a target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin size="37" color="white" />
               </a>
             </Link>
-            <Link
-              href={
-                "https://twitter.com/NitinRajesh4"
-              }
-            >
+            <Link href={"https://twitter.com/NitinRajesh4"}>
               <a target="_blank" rel="noopener noreferrer">
                 <AiFillTwitterCircle size="37" color="white" />
               </a>
             </Link>
-            <Link
-              href={
-                "https://leetcode.com/DeadDeal_1/"
-              }
-            >
+            <Link href={"https://leetcode.com/DeadDeal_1/"}>
               <a target="_blank" rel="noopener noreferrer">
                 <SiLeetcode size="37" color="white" />
               </a>
@@ -58,5 +47,6 @@ export default function Home() {
           </div>
         </div>
       </LayOut>
+    </>
   );
 }
