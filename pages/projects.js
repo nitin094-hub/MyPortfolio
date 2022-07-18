@@ -25,7 +25,7 @@ function projects() {
               href="https://github.com/dhriti987/DevelopersMate"
               target="__blanck"
             ></a>
-            <h5>Developer's Mate</h5>
+            <h5>Developer&apos;s Mate</h5>
           </div>
           <div
             className={styles.project}

@@ -12,7 +12,7 @@ function Achievements() {
         <div className={styles.achievementsContent}>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Sept'21</h3>
+              <h3>Sept&apos;21</h3>
               <p>Codechef</p>
             </div>
             <Divider top="83px" height="5rem" />
@@ -28,7 +28,7 @@ function Achievements() {
           </div>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Sept'21</h3>
+              <h3>Sept&apos;21</h3>
             </div>
             <Divider top="148px" height="5rem" />
             <div className={commonStyles.rightPart}>
@@ -37,7 +37,7 @@ function Achievements() {
           </div>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Mar'21</h3>
+              <h3>Mar&apos;21</h3>
             </div>
             <Divider top="211px" height="5rem" />
             <div className={commonStyles.rightPart}>
@@ -51,7 +51,7 @@ function Achievements() {
           </div>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Sept'21</h3>
+              <h3>Sept&apos;21</h3>
               <p>Google</p>
             </div>
             <Divider top="275px" height="3rem" />

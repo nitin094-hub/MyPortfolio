@@ -19,7 +19,7 @@ function Experience() {
             <div className={commonStyles.rightPart}>
               <h3>Manipal University Jaipur</h3>
               <p>
-                A prefinal year student currently pursing my Bachelor's in
+                A prefinal year student currently pursing my Bachelor&apos;s in
                 Technology in Computer Science.
               </p>
             </div>
@@ -29,7 +29,7 @@ function Experience() {
           <h2>Experience</h2>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Jan'22-Apr'22</h3>
+              <h3>Jan&apos;22-Apr&apos;22</h3>
             </div>
             <Divider top="280px" height="6rem" />
             <div className={commonStyles.rightPart}>
@@ -61,7 +61,7 @@ function Experience() {
           <h2>Community Work</h2>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
-              <h3>Dec'21-Present</h3>
+              <h3>Dec&apos;21-Present</h3>
             </div>
             <Divider top="422px" height="5rem" />
             <div className={commonStyles.rightPart}>

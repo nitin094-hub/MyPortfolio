@@ -52,7 +52,7 @@ function About() {
               <p>
                 I am interested in Web Development. Moreover, I am fascinated by
                 different types of frontend Technologies that make frontend
-                developer's life easier. I really enjoy trying out new
+                developer&apos;s life easier. I really enjoy trying out new
                 technologies and creating something useful out of them.
               </p>
             </div>
