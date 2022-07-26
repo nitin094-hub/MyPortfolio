@@ -19,22 +19,22 @@ function LayOut({ children }) {
     exit: { opacity: 0, x: 0, y: -100 },
   };
   const variant2 = {
-    hidden: { opacity: 0, scale:0 },
-    enter: { opacity: 1, scale:1 },
-    exit: { opacity: 0, scale:0 },
-  }
+    hidden: { opacity: 0, scale: 0 },
+    enter: { opacity: 1, scale: 1 },
+    exit: { opacity: 0, scale: 0 },
+  };
   const variant3 = {
     hidden: { opacity: 0, x: 0, y: -200 },
     enter: { opacity: 1, x: 0, y: 0 },
     exit: { opacity: 0, x: -200, y: 0 },
-  }
+  };
   const variant4 = {
-    hidden: { opacity: 0, rotate:360,scale:0},
-    enter: { opacity: 1, rotate:0,scale:1 },
-    exit: { opacity: 0, rotate:360,scale:0 },
-  }
+    hidden: { opacity: 0, rotate: 360, scale: 0 },
+    enter: { opacity: 1, rotate: 0, scale: 1 },
+    exit: { opacity: 0, rotate: 360, scale: 0 },
+  };
 
-  const variants = [variant2,variant1,variant3,variant4];
+  const variants = [variant2, variant1, variant3, variant4];
   return (
     <div className={styles.container}>
       <div className={styles.mainContainer}>
@@ -75,7 +75,7 @@ function LayOut({ children }) {
             </Link>
           </div>
           <a
-            href="https://drive.google.com/file/d/1giqpxosXS2lmT2JgD1IzTeP1zL_Ip0Ww/view?usp=sharing"
+            href="https://drive.google.com/file/d/1R9Ud5L6iJBTBSMgcpGHyobwcg1LpG4Co/view?usp=sharing"
             target="__blanck"
           >
             <button className={styles.resumeBtn}>
@@ -83,16 +83,16 @@ function LayOut({ children }) {
             </button>
           </a>
         </div>
-          <motion.div
-            initial="hidden"
-            animate="enter"
-            exit="exit"
-            variants={variants[Math.floor(Math.random() * (4))]}
-            transition={{ type: "linear",duration:1 }}
-            className={styles.rightContainer}
-          >
-            {children}
-          </motion.div>
+        <motion.div
+          initial="hidden"
+          animate="enter"
+          exit="exit"
+          variants={variants[Math.floor(Math.random() * 4)]}
+          transition={{ type: "linear", duration: 1 }}
+          className={styles.rightContainer}
+        >
+          {children}
+        </motion.div>
       </div>
       <Navbar />
     </div>
