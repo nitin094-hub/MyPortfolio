@@ -55,7 +55,7 @@ function About() {
             <div className={styles.whatIDoContainers}>
               <h2>Business Analyst</h2>
               <p>
-              I&apos;m deeply interested in business analysis and fascinated by the variety of tools and technologies that help analysts derive insights and make smarter decisions. I enjoy exploring new analytical techniques, dashboards, and platforms that simplify complex data and help create meaningful, actionable outcomes. There's something exciting about turning raw data into real business value.
+              I&apos;m deeply interested in business analysis and fascinated by the variety of tools and technologies that help analysts derive insights and make smarter decisions. I enjoy exploring new analytical techniques, dashboards, and platforms that simplify complex data and help create meaningful, actionable outcomes. There&apos;s something exciting about turning raw data into real business value.
 
 
               </p>
