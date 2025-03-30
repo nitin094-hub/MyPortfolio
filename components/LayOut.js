@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/LayOut.module.scss";
-import profileImg from "../assets/myImage.jpeg";
+import profileImg from "../assets/myImage.jpg";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -50,7 +50,7 @@ function LayOut({ children }) {
           <div className={styles.textContainer}>
             <h1>Nitin Rajesh</h1>
 
-            <h3>Ready to dev</h3>
+            <h3>Decisions powered by data</h3>
           </div>
           <div className={styles.socialMediaIcons}>
             <Link href={"https://github.com/nitin094-hub"}>
@@ -63,19 +63,10 @@ function LayOut({ children }) {
                 <AiFillLinkedin size={27} color="white" />
               </a>
             </Link>
-            <Link href={"https://twitter.com/NitinRajesh4"}>
-              <a target="_blank" rel="noopener noreferrer">
-                <AiFillTwitterCircle size={27} color="white" />
-              </a>
-            </Link>
-            <Link href={"https://leetcode.com/DeadDeal_1/"}>
-              <a target="_blank" rel="noopener noreferrer">
-                <SiLeetcode size={27} color="white" />
-              </a>
-            </Link>
+            
           </div>
           <a
-            href="https://drive.google.com/file/d/1R9Ud5L6iJBTBSMgcpGHyobwcg1LpG4Co/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qrdFCdwFrnV-dXcjEnm0hrmmO57BMu1M/view?usp=sharing"
             target="__blanck"
           >
             <button className={styles.resumeBtn}>

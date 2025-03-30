@@ -19,14 +19,58 @@ function Experience() {
             <div className={commonStyles.rightPart}>
               <h3>Manipal University Jaipur</h3>
               <p>
-                A prefinal year student currently pursing my Bachelor&apos;s in
-                Technology in Computer Science.
+              A Computer Science graduate with a B.Tech degree and a CGPA of 7.7.
               </p>
             </div>
           </div>
         </div>
         <div className={styles.experienceContent}>
           <h2>Experience</h2>
+          <div className={commonStyles.timeLine}>
+            <div className={commonStyles.leftPart}>
+              <h3>March&apos;25-Present</h3>
+            </div>
+            <Divider height="6rem" />
+            <div className={commonStyles.rightPart}>
+              <h3>
+                Business Analyst Intern at{" "}
+                <a
+                  href="https://www.cars24.com/"
+                  style={{ color: "#0059a3" }}
+                  target="__blanck"
+                >
+                  CARS24
+                </a>
+              </h3>
+              <p>
+              Led development of key business dashboards using <span style={{ color: "black", fontWeight: "600" }}> SQL (Snowflake), Google Sheets, App Script, and Tableau </span> to enable real-time performance tracking. Collaborated cross-functionally across teams via Slack, Meet, and email, effectively managing tight timelines and shifting priorities.
+
+
+              </p>
+            </div>
+          </div>
+          <div className={commonStyles.timeLine}>
+            <div className={commonStyles.leftPart}>
+              <h3>July&apos;24-Jan&apos;25</h3>
+            </div>
+            <Divider height="6rem" />
+            <div className={commonStyles.rightPart}>
+              <h3>
+                Co-Founder at{" "}
+                <a
+                  href="https://app.proism.in/resume-curator"
+                  style={{ color: "purple" }}
+                  target="__blanck"
+                >
+                  Proism
+                </a>
+              </h3>
+              <p>
+              Improved <span style={{ color: "black", fontWeight: "600" }}> bounce rate by 40%</span> and <span style={{ color: "black", fontWeight: "600" }}> increased funnel conversion by 15% </span> through data-driven UX and content optimizations using Proism’s tracking system. Built a high-performance web app with React, TypeScript, and Next.js, <span style={{ color: "black", fontWeight: "600" }}>reducing code errors by 40%</span>, cutting timelines by 2 weeks, and boosting <span style={{ color: "black", fontWeight: "600" }}> SEO visibility by 40% </span>  within 3 months.
+
+              </p>
+            </div>
+          </div>
           <div className={commonStyles.timeLine}>
             <div className={commonStyles.leftPart}>
               <h3>Jan&apos;22-Apr&apos;22</h3>
@@ -57,31 +101,6 @@ function Experience() {
                   StoryBook.js
                 </span>
                 for the convenience of future developers.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.experienceContent}>
-          <h2>Community Work</h2>
-          <div className={commonStyles.timeLine}>
-            <div className={commonStyles.leftPart}>
-              <h3>Dec&apos;21-Present</h3>
-            </div>
-            <Divider height="5rem" />
-            <div className={commonStyles.rightPart}>
-              <h3>
-                Competitive Programming Lead at{" "}
-                <a
-                  href="https://www.codechef.com/campus_chapter/CodeChef_MU_Jaipur_Chapter"
-                  style={{ color: "rgb(180 86 12)" }}
-                  target="__blanck"
-                >
-                  Codechef Chapter MUJ
-                </a>
-              </h3>
-              <p>
-                Taught basic Data structure and algorithms to more than 20+
-                students of my college.
               </p>
             </div>
           </div>

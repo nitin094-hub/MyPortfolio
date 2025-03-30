@@ -21,9 +21,9 @@ function Navbar() {
   const RouteChange = (direction)=>{
     if(router.pathname==="/") return `${direction ? "/about" : "achievements"}`
     else if(router.pathname==="/about") return `${direction ? "/experience" : "/"}`
-    else if (router.pathname==="/experience") return `${direction ? "/projects" : "/about"}`
-    else if (router.pathname==="/projects") return `${direction ? "/achievements" : "/experience"}`
-    else if (router.pathname==="/achievements") return `${direction ? "/" : "/projects"}`
+    else if (router.pathname==="/experience") return `${direction ? "/skills" : "/about"}`
+    else if (router.pathname==="/skills") return `${direction ? "/achievements" : "/experience"}`
+    else if (router.pathname==="/achievements") return `${direction ? "/" : "/skills"}`
   }
   
   useEffect(()=>{
@@ -123,7 +123,7 @@ function Navbar() {
             </span>
           </a>
         </Link>
-        <Link href={"/projects"}>
+        <Link href={"/skills"}>
           <a
             onMouseEnter={() => {
               setNavbarContent({
@@ -140,7 +140,7 @@ function Navbar() {
           >
             <AiFillProject
               size={37}
-              color={router.pathname === "/projects" ? "black" : "#b5b6b7"}
+              color={router.pathname === "/skills" ? "black" : "#b5b6b7"}
             />
             <span
               style={
@@ -149,7 +149,7 @@ function Navbar() {
                   : { right: "0", opacity: "0" }
               }
             >
-              <h3>Projects</h3>
+              <h3>Skills</h3>
             </span>
           </a>
         </Link>

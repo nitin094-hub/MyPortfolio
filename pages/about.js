@@ -10,6 +10,11 @@ import nextJs from "../assets/nextJs.svg";
 import redux from "../assets/redux.svg";
 import sass from "../assets/sass.svg";
 import nodeJs from "../assets/nodeJs.svg";
+import mysql from "../assets/mysql.svg";
+import google_analytics from "../assets/google_analytics.svg";
+import excel from "../assets/excel.svg";
+import snowflake from "../assets/snowflake.svg";
+import tableau from "../assets/tableau.svg";
 
 function About() {
   return (
@@ -19,25 +24,25 @@ function About() {
         <div className={styles.aboutMe}>
           <div className={styles.aboutMeText}>
             <p>
-              I am Nitin Rajesh, a student passionate about Web Development. I
-              am an undergrad at Manipal University Jaipur, India in the field
-              of Computer Science. I enjoy creating web applications that live
-              on the internet and can be accessed by everyone. I have been
-              developing software for quite some time it has been awesome so
-              far! My main focus these days is to write performant and
-              industry-standard code. I pay close attention to details and have
-              a knack for UI/UX
+            🎓 Recent graduate from Manipal University Jaipur with a passion for tech, data, and solving real-world business problems.
+<br></br>
+<br></br>
+🚀 I started my journey as a front-end developer and had the opportunity to help build Proism, where I combined design thinking with hands-on development. Over time, my interest shifted from just building interfaces to understanding user behavior, analyzing data, and aligning tech solutions with business goals.
+
+<br></br>
+<br></br>
+📊 With experience working in startup environments, I’ve developed a strong foundation in business analysis — blending my problem-solving mindset with technical skills in SQL, Python, Excel, and data visualization. My background in development (React, Next.js, Redux) helps me bridge the gap between product and engineering teams.
             </p>
           </div>
           <div className={styles.aboutMePoints}>
             <p>
-              <span>Age</span> 20
+              <span>Age</span> 23
             </p>
             <p>
               <span>Nationality </span> Indian
             </p>
             <p>
-              <span>Address </span> Jaipur, Rajasthan
+              <span>Address </span> New Delhi
             </p>
             <p>
               <span>E-mail</span> nitinrajesh094@gmail.com
@@ -48,90 +53,17 @@ function About() {
           <h1>What I Do</h1>
           <div className={styles.whatIDoContent}>
             <div className={styles.whatIDoContainers}>
-              <h2>Development</h2>
+              <h2>Business Analyst</h2>
               <p>
-                I am interested in Web Development. Moreover, I am fascinated by
-                different types of frontend Technologies that make frontend
-                developer&apos;s life easier. I really enjoy trying out new
-                technologies and creating something useful out of them.
+              I’m deeply interested in business analysis and fascinated by the variety of tools and technologies that help analysts derive insights and make smarter decisions. I enjoy exploring new analytical techniques, dashboards, and platforms that simplify complex data and help create meaningful, actionable outcomes. There's something exciting about turning raw data into real business value.
+
+
               </p>
             </div>
             <div className={styles.whatIDoContainers}>
-              <h2>Community Work</h2>
+              <h2>Development</h2>
               <p>
-                I have contributed to more than 10 open-source projects on
-                Github. Mostly I have worked on building the fronted responsive
-                pages and linking backend with API.
-              </p>
-            </div>
-            <div className={styles.whatIDoContainers} style={{flexBasis:"100%"}}>
-              <h2>Tech I am familiar with</h2>
-              <div className={styles.TechIcons}>
-                <div>
-                  <Image
-                    src={html}
-                    alt="HTML Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={css}
-                    alt="CSS Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={javascript}
-                    alt="Javascript Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={react}
-                    alt="React Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={nextJs}
-                    alt="NextJs Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={redux}
-                    alt="Redux Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={sass}
-                    alt="Sass Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={nodeJs}
-                    alt="nodeJs Icon"
-                    width={90}
-                    height={90}
-                  />
-                </div>
-              </div>
+              I'm passionate about business analysis and front-end development, combining data-driven insights with user-focused design. I enjoy exploring new tools and technologies to build intuitive interfaces and create solutions that deliver real business value.              </p>
             </div>
           </div>
         </div>

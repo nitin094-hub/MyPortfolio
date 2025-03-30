@@ -25,7 +25,7 @@ export default function Home() {
             <h1>I am Nitin Rajesh</h1>
           </div>
           <a
-            href="https://drive.google.com/file/d/1R9Ud5L6iJBTBSMgcpGHyobwcg1LpG4Co/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qrdFCdwFrnV-dXcjEnm0hrmmO57BMu1M/view?usp=sharing"
             target="__blanck"
           >
             <button className={styles.resumeBtn}>
@@ -41,16 +41,6 @@ export default function Home() {
             <Link href={"https://www.linkedin.com/in/nitin-rajesh-25a5b71b4/"}>
               <a target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin size="37" color="white" />
-              </a>
-            </Link>
-            <Link href={"https://twitter.com/NitinRajesh4"}>
-              <a target="_blank" rel="noopener noreferrer">
-                <AiFillTwitterCircle size="37" color="white" />
-              </a>
-            </Link>
-            <Link href={"https://leetcode.com/DeadDeal_1/"}>
-              <a target="_blank" rel="noopener noreferrer">
-                <SiLeetcode size="37" color="white" />
               </a>
             </Link>
           </div>
