@@ -31,7 +31,7 @@ function About() {
 
 <br></br>
 <br></br>
-📊 {`With experience working in startup environments, I’ve developed a strong foundation in business analysis — blending my problem-solving mindset with technical skills in SQL, Python, Excel, and data visualization. My background in development (React, Next.js, Redux) helps me bridge the gap between product and engineering teams.`}
+📊 With experience working in startup environments, I&apos;ve developed a strong foundation in business analysis — blending my problem-solving mindset with technical skills in SQL, Python, Excel, and data visualization. My background in development (React, Next.js, Redux) helps me bridge the gap between product and engineering teams.
             </p>
           </div>
           <div className={styles.aboutMePoints}>
@@ -55,7 +55,7 @@ function About() {
             <div className={styles.whatIDoContainers}>
               <h2>Business Analyst</h2>
               <p>
-              {`I’m deeply interested in business analysis and fascinated by the variety of tools and technologies that help analysts derive insights and make smarter decisions. I enjoy exploring new analytical techniques, dashboards, and platforms that simplify complex data and help create meaningful, actionable outcomes. There's something exciting about turning raw data into real business value.`}
+              I&apos;m deeply interested in business analysis and fascinated by the variety of tools and technologies that help analysts derive insights and make smarter decisions. I enjoy exploring new analytical techniques, dashboards, and platforms that simplify complex data and help create meaningful, actionable outcomes. There's something exciting about turning raw data into real business value.
 
 
               </p>
@@ -63,7 +63,7 @@ function About() {
             <div className={styles.whatIDoContainers}>
               <h2>Development</h2>
               <p>
-              I'm passionate about business analysis and front-end development, combining data-driven insights with user-focused design. I enjoy exploring new tools and technologies to build intuitive interfaces and create solutions that deliver real business value.              </p>
+              I&apos;m passionate about business analysis and front-end development, combining data-driven insights with user-focused design. I enjoy exploring new tools and technologies to build intuitive interfaces and create solutions that deliver real business value.              </p>
             </div>
           </div>
         </div>
