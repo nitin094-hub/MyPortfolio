@@ -66,7 +66,7 @@ function LayOut({ children }) {
             
           </div>
           <a
-            href="https://drive.google.com/file/d/1WWrCOfb4zKQCBCz8OCtVN3ghXaTaBQj5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zX91XFRHGhfAzRYsuGYg-JtxaJEGB_js/view?usp=sharing"
             target="__blanck"
           >
             <button className={styles.resumeBtn}>

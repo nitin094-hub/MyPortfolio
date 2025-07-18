@@ -33,7 +33,7 @@ function Experience() {
             <Divider height="6rem" />
             <div className={commonStyles.rightPart}>
               <h3>
-                Business Analyst Intern at{" "}
+                Growth And Stratergy Analyst{" "}
                 <a
                   href="https://www.cars24.com/"
                   style={{ color: "#0059a3" }}
